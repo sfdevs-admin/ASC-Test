@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : Swati Chilap
+  @group             : 
+  @last modified on  : 12-31-2025
+  @last modified by  : Swati Chilap
+-->
+<template>
+    <c-b2b-enhanced-file-uploader
+        required={isRequiredVal}
+        required-message={requiredMessageVal}
+        cb_allow-multiple={allowMultiple}
+        label={labelVal}
+        accepted-formats={acceptedFormats}
+        help-text={helpTextVal}
+        icon="standard:file"
+        uploadedlabel="Uploaded Files"
+        render-files-below="false"
+        visible-to-all-users="false"
+        disable-delete="true"
+        current-cart-id={currentCartId}
+        cb_render-existing-files={renderExistingFilesVal}
+    ></c-b2b-enhanced-file-uploader>
+</template>

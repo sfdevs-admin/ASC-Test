@@ -1,0 +1,5 @@
+lightning-file-upload {
+    .slds-form-element__label {
+        display: none;
+    }
+}
